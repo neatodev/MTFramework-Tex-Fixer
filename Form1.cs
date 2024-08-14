@@ -187,7 +187,7 @@ namespace MTFRTexFix
                     LogBox.AppendText("(" + Errors.ToString() + " Error(s)!)");
                 }
                 LogBox.SelectionColor = Color.Black;
-                LogBox.AppendText("\nhttps://github.com/neatodev\nhttps://www.nexusmods.com/users/81089053\n");
+                LogBox.AppendText("\nhttps://github.com/neatodev\nhttps://www.nexusmods.com/users/81089053\nhttps://www.nexusmods.com/residentevilbiohazardhdremaster/mods/103\n");
                 LogBox.AppendText("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n");
             }
             else
