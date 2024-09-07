@@ -143,7 +143,7 @@
             MinimumSize = new Size(1160, 600);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "MTFWTF - MTFramework Tex Fixer";
+            Text = "MTFWTF - MTFramework Text Fixer";
             ResumeLayout(false);
             PerformLayout();
         }

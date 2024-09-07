@@ -10,15 +10,15 @@
     <Copyright>https://github.com/neatodev</Copyright>
     <AssemblyVersion>0.0.69</AssemblyVersion>
     <FileVersion>0.0.69</FileVersion>
-    <Title>MTFramework Tex Fixer</Title>
+    <Title>MTFramework Text Fixer</Title>
     <Authors>Neato</Authors>
     <Company>neatodev</Company>
     <PackageProjectUrl>https://github.com/neatodev</PackageProjectUrl>
     <ApplicationIcon>Resources\pp,840x830-pad,1000x1000,f8f8f8.ico</ApplicationIcon>
     <AssemblyName>MTFWTF</AssemblyName>
     <Description>MTFramework Tex Fixer</Description>
-    <Product>MTFramework Tex Fixer</Product>
-	<AssemblyTitle>MTFramework Tex Fixer</AssemblyTitle>
+    <Product>MTFramework Text Fixer</Product>
+	<AssemblyTitle>MTFramework Text Fixer</AssemblyTitle>
   </PropertyGroup>
 
   <ItemGroup>
