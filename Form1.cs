@@ -1,6 +1,7 @@
 using Pfim;
 using System.Diagnostics;
 using System.Drawing.Imaging;
+using System.IO;
 
 namespace MTFRTexFix
 {
@@ -19,6 +20,15 @@ namespace MTFRTexFix
         public Form1()
         {
             InitializeComponent();
+            InitLogBox();
+            button3.Enabled = false;
+        }
+
+        private void InitLogBox()
+        {
+            LogBox.AppendText("1 - Click \"Select Folder\" and navigate to the folder containing default .txt files and updated .dds files. (You can optionally check all subfolders as well.)\n");
+            LogBox.AppendText("2 - Click \"Scan Files\" to let the tool check the validity of all .txt & .dds files.\n");
+            LogBox.AppendText("3 - Click \"Fix it!\" to have the tool automatically update all valid .txt files with parameters from your .dds files.\n\n");
         }
 
         private void FolderButton_Click(object sender, EventArgs e)
@@ -233,7 +243,9 @@ namespace MTFRTexFix
 
         private void CheckRecursive(string mainDir)
         {
-            foreach (string f in Directory.EnumerateFiles(mainDir, "*.dds", SearchOption.AllDirectories))
+            var Files = Directory.GetFiles(mainDir, "*.dds", new EnumerationOptions { IgnoreInaccessible = true, RecurseSubdirectories = true });
+            
+            foreach (string f in Files)
             {
                 CheckImage(f);
             }
@@ -321,6 +333,7 @@ namespace MTFRTexFix
         private void button3_Click(object sender, EventArgs e)
         {
             LogBox.Clear();
+            InitLogBox();
             button3.Enabled = false;
         }
     }
