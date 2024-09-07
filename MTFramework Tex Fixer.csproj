@@ -7,14 +7,18 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <PlatformTarget>x64</PlatformTarget>
-    <Copyright>Neato</Copyright>
+    <Copyright>https://github.com/neatodev</Copyright>
     <AssemblyVersion>0.0.69</AssemblyVersion>
     <FileVersion>0.0.69</FileVersion>
     <Title>MTFramework Tex Fixer</Title>
-    <Authors>neatodev</Authors>
+    <Authors>Neato</Authors>
     <Company>neatodev</Company>
     <PackageProjectUrl>https://github.com/neatodev</PackageProjectUrl>
     <ApplicationIcon>Resources\pp,840x830-pad,1000x1000,f8f8f8.ico</ApplicationIcon>
+    <AssemblyName>MTFWTF</AssemblyName>
+    <Description>MTFramework Tex Fixer</Description>
+    <Product>MTFramework Tex Fixer</Product>
+	<AssemblyTitle>MTFramework Tex Fixer</AssemblyTitle>
   </PropertyGroup>
 
   <ItemGroup>
