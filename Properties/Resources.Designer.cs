@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ArcToolDDSTextFileFixer3000.Properties {
+namespace MTFramework_Tex_Fixer.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace ArcToolDDSTextFileFixer3000.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ArcToolDDSTextFileFixer3000.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MTFramework_Tex_Fixer.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,22 +61,22 @@ namespace ArcToolDDSTextFileFixer3000.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Bitmap pp_840x830_pad_1000x1000_f8f8f8 {
+        internal static System.Drawing.Icon Garbo {
             get {
-                object obj = ResourceManager.GetObject("pp,840x830-pad,1000x1000,f8f8f8", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("Garbo", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Icon pp_840x830_pad_1000x1000_f8f8f81 {
+        internal static System.Drawing.Bitmap Garbo1 {
             get {
-                object obj = ResourceManager.GetObject("pp,840x830-pad,1000x1000,f8f8f81", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
+                object obj = ResourceManager.GetObject("Garbo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

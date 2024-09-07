@@ -14,7 +14,7 @@
     <Authors>Neato</Authors>
     <Company>neatodev</Company>
     <PackageProjectUrl>https://github.com/neatodev</PackageProjectUrl>
-    <ApplicationIcon>Resources\pp,840x830-pad,1000x1000,f8f8f8.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\Garbo.ico</ApplicationIcon>
     <AssemblyName>MTFWTF</AssemblyName>
     <Description>MTFramework Tex Fixer</Description>
     <Product>MTFramework Text Fixer</Product>
@@ -22,7 +22,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Resources\pp,840x830-pad,1000x1000,f8f8f8.ico" />
+    <Content Include="Resources\Garbo.ico" />
   </ItemGroup>
 
   <ItemGroup>
