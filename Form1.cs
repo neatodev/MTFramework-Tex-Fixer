@@ -26,20 +26,20 @@ namespace MTFRTexFix
 
         private void InitLogBox()
         {
-            LogBox.AppendText("1 - Click \"Select Folder\" and navigate to the folder containing default .txt files and updated .dds files. (You can optionally check all subfolders as well.)\n");
+            LogBox.AppendText("1 - Click \"Select Folder\" and navigate to the folder containing default .txt files and modified .dds files. (You can optionally check all subfolders as well.)\n");
             LogBox.AppendText("2 - Click \"Scan Files\" to let the tool check the validity of all .txt & .dds files.\n");
-            LogBox.AppendText("3 - Click \"Fix it!\" to have the tool automatically update all valid .txt files with parameters from your .dds files.\n\n");
+            LogBox.AppendText("3 - Click \"Fix it!\" to have the tool automatically update all valid .txt files with parameters from your corresponding .dds files.\n\n");
         }
 
         private void FolderButton_Click(object sender, EventArgs e)
         {
             FolderDialog.ShowDialog();
             PathBox.Text = FolderDialog.SelectedPath;
+            LogBox.AppendText("New path selected: \"" + PathBox.Text + "\"\n");
         }
 
         private void PathBox_TextChanged(object sender, EventArgs e)
         {
-            LogBox.AppendText("New path selected: \"" + PathBox.Text + "\"\n");
             button1.Enabled = true;
         }
 
