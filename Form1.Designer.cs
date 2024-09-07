@@ -86,7 +86,7 @@
             button2.Name = "button2";
             button2.Size = new Size(493, 66);
             button2.TabIndex = 3;
-            button2.Text = "Fix it!";
+            button2.Text = "Fix!";
             toolTip1.SetToolTip(button2, "Edits all .TXT parameters to reflect your .DDS files");
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;

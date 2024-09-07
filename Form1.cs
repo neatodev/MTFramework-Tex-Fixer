@@ -28,7 +28,7 @@ namespace MTFRTexFix
         {
             LogBox.AppendText("1 - Click \"Select Folder\" and navigate to the folder containing default .txt files and modified .dds files. (You can optionally check all subfolders as well.)\n");
             LogBox.AppendText("2 - Click \"Scan Files\" to let the tool check the validity of all .txt & .dds files.\n");
-            LogBox.AppendText("3 - Click \"Fix it!\" to have the tool automatically update all valid .txt files with parameters from your corresponding .dds files.\n\n");
+            LogBox.AppendText("3 - Click \"Fix!\" to have the tool automatically update all valid .txt files with parameters from your corresponding .dds files.\n\n");
         }
 
         private void FolderButton_Click(object sender, EventArgs e)
