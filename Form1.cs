@@ -272,7 +272,7 @@ namespace MTFRTexFix
             catch (UnauthorizedAccessException ex)
             {
                 LogBox.SelectionColor = Color.Red;
-                LogBox.AppendText("Can not check folder!! Exception message: \"" + ex.Message + "\"\n");
+                LogBox.AppendText("Can not check folder! Exception message: \"" + ex.Message + "\"\n");
                 LogBox.SelectionColor = Color.Black;
             }
 
