@@ -262,9 +262,18 @@ namespace MTFRTexFix
 
         private void CheckNormal(string mainDir)
         {
-            foreach (string f in Directory.EnumerateFiles(mainDir, "*.dds", SearchOption.TopDirectoryOnly))
+            try
             {
-                CheckImage(f);
+                foreach (string f in Directory.EnumerateFiles(mainDir, "*.dds", SearchOption.TopDirectoryOnly))
+                {
+                    CheckImage(f);
+                }
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                LogBox.SelectionColor = Color.Red;
+                LogBox.AppendText("Can not check folder!! Exception message: \"" + ex.Message + "\"\n");
+                LogBox.SelectionColor = Color.Black;
             }
 
             if (FilesFound())
